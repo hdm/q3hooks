@@ -1,0 +1,10 @@
+#!/bin/bash
+BASE=`pwd`
+cd /home/games/quake3
+export LD_PRELOAD=$BASE/hooks.so
+./quake3 +set fs_game arena +set sv_pure 0 >$BASE/hooks.log 2>$BASE/quake.log
+unset LD_PRELOAD
+cd $BASE
+#egrep -v 'l\_|tag\_|u\_|h\_|GL\_FRONT|memset' hooks.log > smaller.log
+egrep  'strncpy|MOD' hooks.log > smaller.log
+nedit smaller.log&

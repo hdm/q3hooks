@@ -1,0 +1,161 @@
+
+../quake3.x86:     file format elf32-i386
+
+DYNAMIC SYMBOL TABLE:
+08049c3c      DF *UND*	00000090              XFreePixmap
+08049c4c      DF *UND*	0000003b  GLIBC_2.0   mkdir
+08049c5c      DF *UND*	00000038  GLIBC_2.0   atexit
+08049c6c      DF *UND*	00003960  GLIBC_2.0   __strtod_internal
+08049c7c      DF *UND*	0000003b  GLIBC_2.0   rename
+08049c8c      DF *UND*	000000c4              XGrabKeyboard
+08049c9c      DF *UND*	000000ce              XSync
+08049cac      DF *UND*	0000007e  GLIBC_2.0   strncat
+08049cbc      DF *UND*	00000098  GLIBC_2.0   vsprintf
+08049ccc      DF *UND*	000001c1  GLIBC_2.0   strchr
+08049cdc      DF *UND*	0000009d              XDefineCursor
+08049cec      DF *UND*	000000ab              XChangePointerControl
+08049cfc      DF *UND*	00000090              XMapWindow
+081622e0 g    DO .bss	00000004  GLIBC_2.0   __ctype_tolower
+08049d0c      DF *UND*	00000081              XStoreName
+0816220c g    DO *ABS*	00000000  Base        _DYNAMIC
+08049d1c      DF *UND*	000000e9              XCloseDisplay
+08049d2c  w   DF *UND*	0000007e  GLIBC_2.0   __register_frame_info
+08049d3c      DF *UND*	0000003d  GLIBC_2.0   write
+08049d4c      DF *UND*	0000002f  GLIBC_2.0   localtime
+08049d5c      DF *UND*	00000067              XPending
+08049d6c      DF *UND*	0000003a  GLIBC_2.0   recvfrom
+08049d7c      DF *UND*	0000003b  GLIBC_2.0   strcmp
+08049d8c      DF *UND*	00000037  GLIBC_2.0   close
+08049d9c      DF *UND*	00000049  GLIBC_2.0   dlsym
+08049dac      DF *UND*	00000078  GLIBC_2.0   perror
+08049dbc      DF *UND*	0000002e  GLIBC_2.0   fprintf
+08049dcc      DF *UND*	0000002f  GLIBC_2.0   fork
+08049ddc      DF *UND*	00000107  GLIBC_2.0   getenv
+08049dec      DF *UND*	000000d4  GLIBC_2.0   signal
+08049dfc      DF *UND*	000000a9  GLIBC_2.0   fflush
+08049e0c      DF *UND*	00000071  GLIBC_2.0   seteuid
+08049e1c      DF *UND*	0000007d  GLIBC_2.0   clock
+08049e2c      DF *UND*	00000049  GLIBC_2.0   select
+08049e3c      DF *UND*	00000277              XextAddDisplay
+08049e4c      DF *UND*	00000032  GLIBC_2.0   strerror
+08049e5c      DF *UND*	00000037  GLIBC_2.0   mmap
+08049e6c      DF *UND*	00000156  GLIBC_2.0   tcsetattr
+08049e7c      DF *UND*	000000da              XFreeGC
+08049e8c      DF *UND*	00000133  GLIBC_2.0   getpwuid
+08049e9c      DF *UND*	000000a8  GLIBC_2.0   putenv
+08049eac      DF *UND*	0000009e              XUndefineCursor
+08049ebc      DF *UND*	0000001b  GLIBC_2.0   __errno_location
+08049ecc      DF *UND*	000000b9  GLIBC_2.0   ftell
+08049edc      DF *UND*	00000109  GLIBC_2.0   setvbuf
+08049bf8 g    DF .init	00000000  Base        _init
+08049eec      DF *UND*	000000d7              XGrabPointer
+08049efc      DF *UND*	000001cf  GLIBC_2.0   malloc
+08049f0c      DF *UND*	000000b5  GLIBC_2.0   fread
+08049f1c      DF *UND*	00000109  GLIBC_2.0   memmove
+08049f2c      DF *UND*	0000003a  GLIBC_2.0   sendto
+08049f3c      DF *UND*	00000204              XLookupString
+08049f4c      DF *UND*	0000005f  GLIBC_2.0   remove
+08049f5c  w   DF *UND*	000000bc  GLIBC_2.0   __deregister_frame_info
+08049f6c      DF *UND*	000000a2              XMoveWindow
+081622e4 g    DO .bss	00000004  GLIBC_2.0   stdout
+081622e8 g    DO .bss	00000004  GLIBC_2.0   stderr
+08049f7c      DF *UND*	0000003d  GLIBC_2.0   mprotect
+08049f8c      DF *UND*	00000032  GLIBC_2.0   __sigsetjmp
+08049f9c      DF *UND*	00000145  GLIBC_2.0   __xstat
+08049fac      DF *UND*	0000003a  GLIBC_2.0   setsockopt
+08049fbc      DF *UND*	0000000c  GLIBC_2.0   getpagesize
+08049fcc      DF *UND*	0000040a  GLIBC_2.0   sysconf
+08049fdc      DF *UND*	00004152  GLIBC_2.0   vfprintf
+08049fec      DF *UND*	000000b4  GLIBC_2.0   fseek
+08049ffc      DF *UND*	0000002d  GLIBC_2.0   waitpid
+0804a00c      DF *UND*	00000041  GLIBC_2.0   time
+0804a01c      DF *UND*	0000007f              XSetErrorHandler
+0804a02c      DF *UND*	000000b8  GLIBC_2.0   fputs
+0804a03c      DF *UND*	000000be  GLIBC_2.0   strstr
+0804a04c      DF *UND*	00000056  GLIBC_2.0   longjmp
+0804a05c      DF *UND*	00000139              _XReadPad
+0804a06c      DF *UND*	00000090              XDestroyWindow
+0804a07c      DF *UND*	000003f8  GLIBC_2.0   __strtol_internal
+0804a08c      DF *UND*	000000b0  GLIBC_2.0   qsort
+081622ec g    DO .bss	00000004  GLIBC_2.0   __ctype_toupper
+0804a09c      DF *UND*	000000d5              XCreateColormap
+0804a0ac      DF *UND*	000000a9              XextFindDisplay
+0804a0bc      DF *UND*	000000b3  GLIBC_2.0   strncmp
+0804a0cc      DF *UND*	00000038  GLIBC_2.0   inet_addr
+0804a0dc      DF *UND*	00000462              _XReply
+081622cc g    DO *ABS*	00000000  Base        __bss_start
+0804a0ec      DF *UND*	000000bc  GLIBC_2.0   dlerror
+0804a0fc      DF *UND*	0000011c  GLIBC_2.0   __libc_start_main
+0804a10c      DF *UND*	00000141              XGetErrorText
+0804a11c      DF *UND*	0000007b              XPeekEvent
+0804a12c      DF *UND*	000002e7  GLIBC_2.0   realloc
+0804a13c      DF *UND*	000001aa  GLIBC_2.0   strcat
+0804a14c      DF *UND*	0000002d  GLIBC_2.0   asctime
+0804a15c      DF *UND*	0000003c              XextCreateExtension
+0804a16c      DF *UND*	00000033  GLIBC_2.0   printf
+0804a17c      DF *UND*	0000003a  GLIBC_2.0   bind
+0804a18c      DF *UND*	000000bc              XGetPointerControl
+0804a19c      DF *UND*	0000002f  GLIBC_2.0   getuid
+08141104 g    DF .fini	00000000  Base        _fini
+0804a1ac      DF *UND*	0000003d  GLIBC_2.0   fcntl
+0804a1bc      DF *UND*	00000071  GLIBC_2.0   memcpy
+0804a1cc      DF *UND*	00000113  GLIBC_2.1   fclose
+0804a1dc      DF *UND*	000001b9  GLIBC_2.0   strrchr
+0804a1ec      DF *UND*	0000002f  GLIBC_2.0   ctime
+0804a1fc      DF *UND*	0000007f              _XSetLastRequestRead
+0804a20c      DF *UND*	00000065              _XEatData
+0804a21c      DF *UND*	0000007e  GLIBC_2.0   closedir
+0804a22c      DF *UND*	00000028              _XFlush
+0804a23c      DF *UND*	0000003b  GLIBC_2.0   gettimeofday
+0804a24c      DF *UND*	00000063  GLIBC_2.0   srand
+0804a25c      DF *UND*	000001b2  GLIBC_2.0   opendir
+0804a26c      DF *UND*	00000032  GLIBC_2.0   snprintf
+0804a27c      DF *UND*	0000009f  GLIBC_2.0   gethostname
+0804a28c      DF *UND*	0000003d  GLIBC_2.0   open
+0804a29c      DF *UND*	000000ec              XCreatePixmapCursor
+0804a2ac      DF *UND*	00000606  GLIBC_2.0   gethostbyname
+0804a2bc      DF *UND*	00000060  GLIBC_2.0   strcasecmp
+0804a2cc      DF *UND*	00000033  GLIBC_2.0   dlclose
+0804a2dc      DF *UND*	000000e8  GLIBC_2.0   exit
+0804a2ec      DF *UND*	00000059              XFlush
+0804a2fc      DF *UND*	0000010d              XCreateWindow
+0804a30c      DF *UND*	000002a4  GLIBC_2.0   calloc
+0804a31c      DF *UND*	00000087              XNextEvent
+0804a32c      DF *UND*	0000002e  GLIBC_2.0   sscanf
+081622cc g    DO *ABS*	00000000  Base        _edata
+0804a33c      DF *UND*	00000270              _XSend
+08161fc0 g    DO *ABS*	00000000  Base        _GLOBAL_OFFSET_TABLE_
+0804a34c      DF *UND*	000000da  GLIBC_2.0   free
+0889e5b8 g    DO *ABS*	00000000  Base        _end
+0804a35c      DF *UND*	0000003d  GLIBC_2.0   ioctl
+0804a36c      DF *UND*	0000012b              _XRead
+0804a37c      DF *UND*	000001f4  GLIBC_2.0   getcwd
+0804a38c      DF *UND*	000000c2              XextRemoveDisplay
+0804a39c      DF *UND*	00000034  GLIBC_2.0   isatty
+0804a3ac      DF *UND*	00000068  GLIBC_2.0   memset
+0804a3bc      DF *UND*	00000036  GLIBC_2.0   _exit
+0804a3cc      DF *UND*	0000006e              XEventsQueued
+0804a3dc      DF *UND*	00000082  GLIBC_2.0   strncpy
+0804a3ec      DF *UND*	0000009b  GLIBC_2.1   fopen
+0804a3fc      DF *UND*	00000112              XFillRectangle
+08141124 g    DO .rodata	00000004  Base        _IO_stdin_used
+0804a40c      DF *UND*	0000004a              XMissingExtension
+0804a41c      DF *UND*	000000c0              XWarpPointer
+0804a42c      DF *UND*	00000090              XUngrabKeyboard
+0804a43c      DF *UND*	0000002e  GLIBC_2.0   sprintf
+0804a44c      DF *UND*	000000c0  GLIBC_2.0   fwrite
+0804a45c      DF *UND*	0000003a  GLIBC_2.0   socket
+0804a46c      DF *UND*	00000099  GLIBC_2.0   readdir
+0804a47c      DF *UND*	00000090              XUngrabPointer
+0804a48c      DF *UND*	0000001d  GLIBC_2.0   rand
+0804a49c      DF *UND*	000000b6              XCreatePixmap
+0804a4ac      DF *UND*	0000007c  GLIBC_2.0   tcgetattr
+0804a4bc      DF *UND*	0000003d  GLIBC_2.0   read
+0804a4cc      DF *UND*	000001a1              XCreateGC
+0804a4dc      DF *UND*	0000002f  GLIBC_2.0   geteuid
+0804a4ec      DF *UND*	00001030              XOpenDisplay
+00000000  w   D  *UND*	00000000              __gmon_start__
+0804a50c      DF *UND*	00000043  GLIBC_2.1   dlopen
+0804a51c      DF *UND*	0000008b  GLIBC_2.0   strcpy
+
+
